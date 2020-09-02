@@ -1,0 +1,51 @@
+body{
+  background: #209cee;
+}
+.app{
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 16px;
+  font-family: monospace;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo button{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  border: 0;
+}
+
+.title{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkblue;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.footer{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: red;
+  font-size: large;
+  text-align: center;
+}
