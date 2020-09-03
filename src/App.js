@@ -63,12 +63,12 @@ function App(){
 
   const completeTodo = (index) => {
     const newTodos = [...todos];
-    newTodos[index].isCompleted = true;
+    todos[index].isCompleted ? newTodos[index].isCompleted = false : newTodos[index].isCompleted = true;
     setTodos(newTodos);
-    const itemsLeft = checkTasksLeft();
+    /*const itemsLeft = checkTasksLeft();
     if(itemsLeft === 0){
       setTodos([]);
-    }
+    }*/
   };
 
   const removeTodo = (index) => {
