@@ -28,7 +28,6 @@ body{
 }
 
 .todo button{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: oblique;
   width: 30px;
   height: 20px;
@@ -44,8 +43,8 @@ body{
 }
 
 .footer{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: red;
+  font-family: 'Lucida Sans';
+  color: orangered;
   font-size: large;
   text-align: center;
 }
