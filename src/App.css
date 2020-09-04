@@ -42,9 +42,13 @@ body{
   text-align: center;
 }
 
+.redo{
+  display: none;
+}
+
 .footer{
-  font-family: 'Lucida Sans';
-  color: orangered;
+  font-family: Arial, Helvetica, sans-serif;
+  color: crimson;
   font-size: large;
   text-align: center;
 }
